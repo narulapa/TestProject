@@ -42,7 +42,7 @@ namespace WebAPI.Controllers
             }
             catch (Exception)
             {
-                throw new InvalidOperationException("Something went wrong. Plese try again later.");
+                throw new InvalidOperationException("Something went wrong. Please try again later.");
             }
 
         }
@@ -66,7 +66,7 @@ namespace WebAPI.Controllers
             }
             catch (Exception)
             {
-                throw new InvalidOperationException("Something went wrong. Plese try again later");
+                throw new InvalidOperationException("Something went wrong. Please try again later");
             }
 
         }
